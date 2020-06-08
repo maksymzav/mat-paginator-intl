@@ -17,6 +17,6 @@
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
-  <mat-paginator [pageSize]="pageSize" [length]="data.length" [pageSizeOptions]="pageSizeOptions"
-                 (page)="pageChanged($event)" [pageIndex]="currentPage"></mat-paginator>
+  <app-paginator [pageSize]="pageSize" [length]="data.length" [pageSizeOptions]="pageSizeOptions"
+                 (page)="pageChanged($event)" [pageIndex]="currentPage"></app-paginator>
 </div>

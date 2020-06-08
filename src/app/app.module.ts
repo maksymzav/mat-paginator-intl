@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTableModule} from "@angular/material/table";
-import {MatPaginatorModule} from "@angular/material/paginator";
+import {PaginatorIntlModule} from "./paginator-intl/paginator-intl.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import {MatPaginatorModule} from "@angular/material/paginator";
     BrowserModule,
     BrowserAnimationsModule,
     MatTableModule,
-    MatPaginatorModule
+    PaginatorIntlModule
   ],
   providers: [],
   bootstrap: [AppComponent]
