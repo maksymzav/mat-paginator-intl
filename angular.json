@@ -45,6 +45,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "localize": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -119,6 +120,12 @@
               "devServerTarget": "paginator-intl:serve:production"
             }
           }
+        }
+      },
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "uk": "src/locale/messages.uk.xlf"
         }
       }
     }
